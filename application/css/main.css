@@ -1,0 +1,46 @@
+.dynamicDates{width:20%!important;}
+.section-common-space{padding: 40px 0}
+.toggeleIconLeft{margin-right: 25px}
+.section-title a{color: #333}
+.section-title a:hover{text-decoration: none;color:#e36b6b}
+.table-custom{margin-top: 2em}
+.table-custom th{background: #393648;    text-align: center;
+    color: #fff;border-bottom:0;    border-bottom: 2px solid #393648 !important}
+.table-custom  .priceTag  {position: relative}
+.table-custom  .priceTag p{
+  font-size: 14px;
+color: #f03063;
+font-weight: 600;
+margin-bottom: 0;
+margin-top: 5px;
+padding-left: 25px;
+}
+.section-title{       color: #2D3773;}
+.table-custom h4{font-size: 18px}
+.table-custom  td.alt{background: #f6f4ff}
+.table-custom td{    border-bottom: 1px solid  #393648 !important;
+    padding: 1em 0.5em  0  !important;}
+.table-custom .calendarIcon{position: relative;text-align: center;    margin-bottom: 0px;}
+.table>tbody>tr>td.diffBorder {
+    border: 1px solid #393648 !important;border-bottom: 0px !important;
+}
+.table-custom  .calendarIcon img{max-width: 40px}
+.table-custom  .datePosition{    position: absolute;
+    /* right: 0; */
+    margin-left: -25px;
+    top: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e36b6b;}
+.productIcon{position: absolute;top: -36px;
+    right: -7px;}
+.productIcon img{max-width: 30px;    margin-top: 15px;}
+.table>tbody>tr>td{    border: 1px solid #e9ecef !important;}
+.table-custom .dynamicDates table .dynamicMenu .priceTag p{padding-left: 0}
+.table-custom .dynamicDates table .dynamicMenu {background: #cae0f182;}
+
+.table-custom {border-bottom: 1px solid #393648}
+
+
+
+

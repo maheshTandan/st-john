@@ -1,0 +1,106 @@
+.menuMasssonary {width:100%;display:block;height:auto; margin:auto;padding:5px;font-family: sans-serif;}
+
+* { box-sizing: border-box; }
+
+/* ---- grid ---- */
+
+.gridd {
+  /*background: #fff;*/
+  max-width: 100%;
+}
+
+/* clear fix */
+.gridd:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .gridd-item ---- */
+
+.gridd-item {
+  float: left;
+  width: 18%;
+  min-height: 700px;
+  background: rgba(255, 255, 255, .2);
+  border: 1px solid #ddd;
+  border-color: rgba(131, 43, 33, 0.2);
+  /*counter-increment: item;*/
+  margin: 5px;
+  /*padding:10px;*/
+}
+
+.gridd-item:before {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 0.2em;
+  /*content: counter(item);    */
+  font-weight: bold;
+  color: #fff;
+  background-color: #fdbb2a;
+}
+
+/*.gridd-item--height2 { height: 200px; }
+.gridd-item--height3 { height: 220px; }*/
+
+
+/*-----manual-----*/
+.daysGridBlock {width:100%;display:block;position:relative;height:40px;}
+.daysGrid {float: left; width: 18%;text-align:center;margin:5px;color:#868686;}
+.menuItem {font-weight: 700;margin-bottom:10px;width:80%; display: inline-block; vertical-align: top; padding-left: 6px; padding-top: 3px;}
+.menuItem:last-child {border-bottom-width:0px;margin-bottom:0px;}
+.gridd-item h4 {font-size:1.4rem;font-weight:bold;color:#3c3950;margin-top: 5px;}
+.gridd-item p {font-size:1.4rem;color:#868686;margin-bottom:10px;}
+.gridd-item p.price {float:right;display:inline-block;color:#f03063;font-weight:bold; line-height: 0.2rem;}
+input[type="checkbox"]{
+  width: 18px; /*Desired width*/
+  height: 18px; /*Desired height*/
+  cursor: pointer;
+}
+.menuCheckbox {}
+
+.counterIncrement {
+ font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 0.2em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #fdbb2a;
+  /*margin-bottom:10px; */
+  }
+  .mealBG {background-color:#cae0f1; padding:7px;padding-bottom:0;}
+  .mealBborder {border-bottom:1px solid #626262;padding-top: 10px; padding-bottom: 10px;}  
+  .mealBborder:first-child {padding-top:5px;}
+  /*.mealBborder:last-child {border-bottom-width:0px;padding-bottom:5px;}*/
+  .mealItem {font-size:1.3rem; margin-top: 16px;}
+  .mealSides{background-color: #fff;}
+  .menuCategory {border-bottom:1px solid #626262;}
+  .menuCategory p {    
+    display: inline-block;
+    font-size: 1.3rem;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 60%;
+  }
+  .menuCategory img {float:right;max-width:30px;}
+  .milkItems{background-color: #fff; 
+    display: inline-block;
+    font-size: 1.3rem;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 60%;}
+
+@media (min-width: 992px) and (max-width: 1199px) {	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 600px) and (max-width: 768px) {
+}
+@media (min-width: 480px) and (max-width: 600px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+}
